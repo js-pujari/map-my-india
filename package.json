@@ -1,16 +1,18 @@
 {
   "name": "cra-template-mapmyindia",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "keywords": [
     "react",
     "react-js",
     "map-my-india",
     "map my india",
+    "location map",
     "indian map",
     "maps-react",
-    "cra-template"
+    "cra-template",
+    "cra-template-mapmyindia"
   ],
-  "description": "Reactjs with js-template and map my india example.",
+  "description": "React initial project setup with js-template and map my india example.",
   "author": "js-pujari",
   "main": "template.json",
   "repository": {

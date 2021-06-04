@@ -21,7 +21,14 @@ If you are looking for any js usefull **utility functions**, you can find here.[
 
 ## Installation
 
-`npx create-react-app project-name --template mapmyindia`
+```
+  npx create-react-app your-project-name --template mapmyindia
+
+  #or
+
+  yarn create react-app your-project-name --template mapmyindia
+
+```
 
 ## Available Scripts
 
