@@ -8,8 +8,8 @@ export const parseJSON = (response) => {
 const App = () => {
   const tokenGeneratorUrl = 'https://outpost.mapmyindia.com/api/security/oauth/token';
   const grantType = 'client_credentials'
-  const clientSecret = 'lrFxI-iSEg-Rxf9n-eVP2rCi5WV88nd0YXD0uSFwcj3FApdsaV-pJq5ZoGnpxt_jReq7TyoDpCUvgXozj07067Ou5LpCbYVHtB1MRT1xyT4GJfOkNbBCg_L-GcqbHti9';
-  const clientId = '33OkryzDZsK2QVC0gTd2YOygAMkxVF8dwy6hoWIqdTub8ogq1rDk8hXnNQjV9c8wdspDtcT6LkINDwNrYomhfb73VFe1v-CcVAFKdd6XvpXnmhFUqBsv_w==';
+  const clientSecret = 'YOUR_CLIENT_SECRET_KEY';
+  const clientId = 'YOUR_CLIENT_ID';
   const [coords, setCoords] = useState({
     lat: 13.295583, lng: 77.800758
   })

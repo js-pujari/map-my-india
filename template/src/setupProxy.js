@@ -8,4 +8,11 @@ module.exports = function (app) {
             changeOrigin: true,
         })
     );
+    app.use(
+        '/apis',
+        createProxyMiddleware({
+            target: 'https://explore.mapmyindia.com',
+            changeOrigin: true,
+        })
+    );
 };
